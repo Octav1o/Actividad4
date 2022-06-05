@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Registro UTM 2022</title>
+	<link href="./Formulario2_files/styleForm2.css" rel="stylesheet">
+	<!-- 
+	▪ Nombre de la escuela: Universidad Tecnológica Metropolitana
+	▪ Asignatura: Aplicaciones 
+	▪ Nombre del Maestro: Joel Ivan Chuc Uc 
+	▪ Nombre de la actividad: Actividad 4 (Unidad 2) - Formulario 2
+	▪ Nombre del alumno o Alumnos: Octavio Buenfil Cervantes 
+	▪ Cuatrimestre: 3er 
+	▪ Grupo: C 
+	▪ Parcial: 1er 
+	-->
+</head>
+
+<body>
+	<header class="header_box">
+		<h1>Registro UTM 2022</h1>
+	</header>
+	<br>
+	
+	<div class="Contenedor">
+		<form action="file:///F:/HTML/Formulario2.html#enviar-respuesta">
+			<div class="fila">	
+				<div class="col_1">
+					<label for="nombre"><strong>Nombre :</strong> </label>
+				</div>
+				<div class="col_2">
+					<input type="text" id="nombre" name="Nombre" placeholder="Nombre Completo" data-np-checked="1">
+				</div>
+			</div>
+			<div class="fila">	
+				<div class="col_1">
+					<label for="email"><strong>Correo electrónico :</strong> </label>
+				</div>
+				<div class="col_2">
+					<input type="email" id="email" pattern=".+@globex\.com" size="30" placeholder="Correo electrónico" required="">
+				</div>
+			</div>
+			<div class="fila">	
+				<div class="col_1">
+					<label for="url"><strong>URL :</strong> </label>
+				</div>
+				<div class="col_2">
+					<input type="url" name="url" id="url" placeholder="https://misitio.com" pattern="https://.*" size="30" required="">
+				</div>
+			</div>
+			<div class="fila">	
+				<div class="col_1">
+					<label><strong>Fecha y Hora :</strong> </label>
+				</div>
+				<div class="col_1">
+					<input type="date" id="fecha" name="fecha">
+				</div>
+				<div class="separador">
+				</div>
+				<div class="col_1">
+					<input type="time" id="hora" name="hora" min="00:00" max="23:59" required="">
+				</div>
+			</div>
+			<div class="fila">	
+				<div class="col_1">
+					<label for="mes"><strong>Mes :</strong> </label>
+				</div>
+				<div class="col_1">
+					<input type="month" id="mes" name="mes" min="1970-01">
+				</div>
+			</div>
+			<div class="fila">	
+				<div class="col_1">
+					<label for="semana"><strong>Semana :</strong> </label>
+				</div>
+				<div class="col_1">
+					<input type="week" name="semana" id="semana" min="1970-W01" max="2030-W52" required="">
+				</div>
+			</div>
+			<div class="fila">	
+				<div class="col_1">
+					<label for="numero"><strong>Número (min: -10, max: 10) :</strong> </label>
+				</div>
+				<div class="col_1">
+					<input type="number" id="numero" name="numero" min="-10" max="10">
+				</div>
+			</div>
+			<div class="fila">	
+				<div class="col_1">
+					<label for="telefono"><strong>Teléfono :</strong> </label>
+				</div>
+				<div class="col_1">
+					<input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{7}" required="">
+				</div>
+			</div>
+			<div class="fila">	
+				<div class="col_1">
+					<label for="colores"><strong>Color favorito :</strong> </label>
+				</div>
+				<div class="col_1">
+					<input type="color" id="colores" value="#0000ff">
+				</div>
+			</div>
+			<br>
+			
+			
+
+
+
+
+		</form>
+	</div>	
+	<br>
+	<footer class="footer_box">
+			<p> 2022 OBC desarrollos - No sea gandalla, no lo copie</p>
+	</footer>
+
+</body></html>
